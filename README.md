@@ -27,7 +27,7 @@
 <a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/dilshadhasnain07/YaeMikoo/commits/dilshadhasnain07"> <img src="https://img.shields.io/github/last-commit/Infoumus-hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/dilshadhasnain07/YaeMikoo/commits/dilshadhasnain07"> <img src="https://img.shields.io/github/last-commit/dilshadhasnain07/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 
 </p>
 
