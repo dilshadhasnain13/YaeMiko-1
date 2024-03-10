@@ -1,5 +1,5 @@
 # https://github.com/dilshadhasnain07/YaeMikoo
-# https://github.com/Infamous-Hydra/Yaemiko
+# https://github.com/Team-ProjectCodeX
 
 
 class Config(object):
