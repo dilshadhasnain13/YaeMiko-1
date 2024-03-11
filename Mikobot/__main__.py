@@ -563,3 +563,82 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in H
+                                                            )
+                        ]
+                    ]
+                ),
+            )
+        else:
+            text = "Click here to check your settings."
+
+    else:
+        await send_settings(chat.id, user.id, True)
+
+
+async def migrate_chats(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = update.effective_message  # type: Optional[Message]
+    if msg.migrate_to_chat_id:
+        old_chat = update.effective_chat.id
+        new_chat = msg.migrate_to_chat_id
+    elif msg.migrate_from_chat_id:
+        old_chat = msg.migrate_from_chat_id
+        new_chat = update.effective_chat.id
+    else:
+        return
+
+    LOGGER.info("Migrating from %s, ᴛᴏ %s", str(old_chat), str(new_chat))
+    for mod in MIGRATEABLE:
+        with contextlib.suppress(KeyError, AttributeError):
+            mod.__migrate__(old_chat, new_chat)
+
+    LOGGER.info("Successfully Migrated!")
+    raise ApplicationHandlerStop
+
+
+# <=======================================================================================================>
+
+
+# <=================================================== MAIN ====================================================>
+def main():
+    function(CommandHandler("start", start))
+
+    function(CommandHandler("help", get_help))
+    function(CallbackQueryHandler(help_button, pattern=r"help_.*"))
+
+    function(CommandHandler("settings", get_settings))
+    function(CallbackQueryHandler(settings_button, pattern=r"stngs_"))
+    function(CommandHandler("repo", repo))
+
+    function(CallbackQueryHandler(Miko_about_callback, pattern=r"Miko_"))
+    function(CallbackQueryHandler(gitsource_callback, pattern=r"git_source"))
+    function(CallbackQueryHandler(stats_back, pattern=r"insider_"))
+    function(CallbackQueryHandler(ai_handler_callback, pattern=r"ai_handler"))
+    function(CallbackQueryHandler(more_ai_handler_callback, pattern=r"more_ai_handler"))
+    function(MessageHandler(filters.StatusUpdate.MIGRATE, migrate_chats))
+
+    dispatcher.add_error_handler(error_callback)
+
+    LOGGER.info("Mikobot is starting >> Using long polling.")
+    dispatcher.run_polling(timeout=15, drop_pending_updates=True)
+
+
+if __name__ == "__main__":
+    try:
+        LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+        tbot.start(bot_token=TOKEN)
+        app.start()
+        main()
+    except KeyboardInterrupt:
+        pass
+    except Exception:
+        err = traceback.format_exc()
+        LOGGER.info(err)
+    finally:
+        try:
+            if loop.is_running():
+                loop.stop()
+        finally:
+            loop.close()
+        LOGGER.info(
+            "------------------------ Stopped Services ------------------------"
+        
