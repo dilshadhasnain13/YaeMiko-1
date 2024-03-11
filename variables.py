@@ -1,4 +1,4 @@
-# https://github.com/dilshadhasnain07/YaeMikoo
+# https://github.com/dilshadhasnain07/YaeMiko
 # https://github.com/Team-ProjectCodeX
 
 
