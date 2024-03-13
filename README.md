@@ -20,9 +20,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
-<a href="https://github.com/dilshadhasnain07/YaeMikoo/stargazers"><img src="https://img.shields.io/github/stars/dilshadhasnain07/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/dilshadhasnain07/YaeMikoo/network/members"> <img src="https://img.shields.io/github/forks/dilshadhasnain07/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/dilshadhasnain07/YaeMikoo/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/hasnaindilshad13/YaeMiko/stargazers"><img src="https://img.shields.io/github/stars/hasnaindilshad13/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/hasnaidilshad13/YaeMiko/network/members"> <img src="https://img.shields.io/github/forks/hasnaindilshad13/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/hasnaindilshad13/YaeMiko/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
