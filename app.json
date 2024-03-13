@@ -5,7 +5,7 @@
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
    "repository": "https://github.com/dilshadhasnain13/YaeMiko",
   
-   ],
+
    
 "env": {
       "API_ID": {
