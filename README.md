@@ -71,7 +71,7 @@ python3 -m Mikobot         # 8. Run the Bot
 <p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
 
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/dilshadhasnain07/YaeMiko">
+    <a href="https://heroku.com/deploy?template=https://github.com/hasnain dilshad13/YaeMiko">
         <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
 </p>
@@ -79,7 +79,7 @@ python3 -m Mikobot         # 8. Run the Bot
 <h1 align="center"><img src="./.github/yae-miko.gif" /></h1>
 
 ## CREDITS
-+ [hasnainkk](https://github.com/dilshadhasnain07)
++ [hasnainkk](https://github.com/hasnaindilshad13)
 + [lostb053](https://github.com/lostb053) > Anime
 + [TheHamkerCat](https://github.com/TheHamkerCat) > Python-Arq
 + [ProjectCodeX](https://github.com/Team-ProjectCodeX) > Modules
