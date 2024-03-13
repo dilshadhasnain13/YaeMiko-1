@@ -7,7 +7,7 @@
    "stack": "heroku-22",
    "addons": [
       {
-         "plan": "heroku-postgresql",
+         "plan": "heroku-postgresql:mini",
          "options": {
             "version": "12"
          }
