@@ -27,7 +27,7 @@
 <a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/dilshadhasnain07/YaeMikoo/commits/dilshadhasnain07"> <img src="https://img.shields.io/github/last-commit/dilshadhasnain07/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/dilshadhasnain07/YaeMikoo/commits/dilshadhasnain13"> <img src="https://img.shields.io/github/last-commit/dilshadhasnain07/YaeMikoo?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 
 </p>
 
@@ -71,7 +71,7 @@ python3 -m Mikobot         # 8. Run the Bot
 <p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
 
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/hasnain dilshad13/YaeMiko">
+    <a href="https://heroku.com/deploy?template=https://github.com/dilshadhasnain13/YaeMiko">
         <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
 </p>
