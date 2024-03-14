@@ -4,11 +4,16 @@
    "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
    "repository": "https://github.com/dilshadhasnain13/YaeMiko",
-
-},
-
-   
-"env": {
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "plan": "heroku-postgresql",
+         "options": {
+            "version": "12"
+         }
+      }
+   ],
+   "env": {
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
@@ -90,7 +95,7 @@
       "SUPPORT_ID": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1002074034670"
+         "value": "--1002074034670"
       },
       "DB_NAME": {
          "description": "Your MongoDB name.",
@@ -101,5 +106,6 @@
          "description": "Bot token obtained from @BotFather on Telegram.",
          "required": true,
          "value": ""
-         }
-     }
+      }
+   }
+}
